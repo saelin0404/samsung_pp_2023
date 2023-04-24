@@ -3,7 +3,7 @@
 .main_visual{z-index: 30; position: relative; width: 100%;}
 #container{width: 100%; background: #f4f7fb;}
 .content1{position: relative; width: 100%; background: #fff;}
-.content1_inner{position: relative; width: 1142px; margin: 0 auto; padding: 90px 0; border: 1px solid saddlebrown;}
+.content1_inner{position: relative; width: 1142px; margin: 0 auto; padding: 90px 0;}
 .content2{width: 100%;}
 .content3{width: 1142px; margin: 0 auto 80px;}
 .content4{width: 100%}
