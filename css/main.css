@@ -118,4 +118,4 @@ a.btn_next{right: 30px; background-position: -30px 0;}
 .sitemap>ul::after{content: ""; display: block; clear: both;}
 .sitemap>ul>li{float: left; margin-right: 150px; line-height: 40px;}
 .sitemap>ul>li>a{color: #333; font-size: 18px; font-weight: bold;}
-.sitemap>ul>li>ul>li>a{color: #aaa;}
+.sitemap>ul>li>ul>li>a{color: #888;}

@@ -10,7 +10,7 @@ h1.logo>a{width: 176px; height: 36px; display: block; background: url(../images/
 /* 주메뉴 */
 nav.gnb>ul{display: flex; justify-content: center; width: 100%; text-align: center;}
 nav.gnb>ul>li{display: inline-block; padding:  0 45px; line-height: 70px;}
-nav.gnb>ul>li>a{position: relative; display: inline-block; font-size: 18px; font-weight: 600px; color: #000;}
+nav.gnb>ul>li>a{position: relative; display: inline-block; font-size: 18px; font-weight: 600; color: #000;}
 nav.gnb>ul>li>a::after{
   content: ""; position: absolute; display: inline-block; left: 50%; bottom: 0; transform: translateX(-50%);
   opacity: 0; width: 0%; height: 0px; background: #043285; transition: all 0.4s linear 0s;}
