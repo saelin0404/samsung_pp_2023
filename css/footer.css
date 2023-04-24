@@ -1,0 +1,45 @@
+#footer{position: relative; width: 100%; height: 185px; background: #474a4f;}
+#footer .foot_inner{width: 1142px; margin: 0 auto; padding: 20px 0;}
+.foot_inner li{float: left;}
+.foot_inner li>a{color: #fff;}
+.foot_inner>div:first-of-type{border-bottom: 1px solid #6c6f73; width: 100%; margin-bottom: 20px; padding-bottom: 20px;}
+.foot_inner>div:first-of-type::after{content: ""; display: block; clear: both;}
+.foot_inner>div:first-of-type>ul:first-of-type{float: left;}
+.foot_inner>div:first-of-type>ul:first-of-type>li{position: relative; padding-right: 20px; margin-right: 20px;}
+.foot_inner>div:first-of-type>ul:first-of-type>li::after{
+  content: ""; position: absolute; right: 0; top: 50%; width: 1px; height: 14px;
+  margin-top: -7px; height: 14px; background: #999;}
+.foot_inner>div:first-of-type>ul:first-of-type>li:last-child::after{display: none;}
+
+.foot_inner>div:first-of-type>ul:last-of-type{float: right;}
+.foot_inner>div:first-of-type>ul:last-of-type>li{margin-left: 15px;}
+.foot_inner>div:first-of-type>ul:last-of-type>li>a{display: block; width: 21px; height: 19px;
+  background: url(../images/sns_link_ico.png) no-repeat 0 0; text-indent:  -9999px; overflow: hidden;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(1)>a{background-position-x: 0;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(2)>a{background-position-x: -30px;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(3)>a{background-position-x: -60px;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(4)>a{background-position-x: -90px;}
+
+.foot_inner>div:last-of-type>ul{float: left;}
+.foot_inner>div:last-of-type>ul>li{margin-right: 30px;}
+.foot_inner>div:last-of-type>ul>a{color: #ccc;}
+.foot_inner>div:last-of-type>ul>li:nth-child(3)>a{color: #00ccff;}
+
+.foot_inner>div:last-of-type>p{float: right; color: #ccc; font-size: 12px;}
+.foot_inner>div:last-of-type>address{clear: both; width: 420px; color: #ccc;}
+.foot_inner>div:last-of-type>address>span{position: relative; padding-right: 10px; margin-right: 10px;}
+.foot_inner>div:last-of-type>address>span::after{content: ""; position: absolute; right: 0; top: 50%;
+  margin-top: -5px; width: 1px; height: 10px; background: #ccc;}
+.foot_inner>div:last-of-type>address>span:nth-of-type(3)::after{display: none;}
+.foot_inner>div:last-of-type>address>span:nth-of-type(4)::after{display: none;}
+
+.btn_top{z-index: 50; position: fixed; right: 80px; bottom: 30px; 
+  width: 60px; height: 60px; border: 1px solid #333; display: none;
+  background: #fff url(../images/top_btn_ico.png) no-repeat 50% 20%;
+  font-size: 13px; color: #333; text-align: center; line-height: 80px; cursor: pointer;}
+.btn_top.on,.btn_museum.on{display: block;}
+.btn_top.ab{position: absolute; bottom: auto; top: -100px; right: 80px;}
+.btn_museum.ab{position: absolute; bottom: auto; top: -190px; right: 80px;}
+.btn_museum{z-index: 50; display: none; position: fixed; right: 80px; bottom: 120px; width: 64px; height: 64px;
+    border-radius: 50%; background: #555; background: url(../images/ico_museum.png);
+    overflow: hidden; text-indent: -9999px;}
