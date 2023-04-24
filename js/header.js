@@ -1,4 +1,5 @@
-//main.js
+window.addEventListener("load",()=>{
+  //main.js
 const li =document.querySelectorAll("nav.gnb>ul>li");
 const div = document.querySelectorAll("nav.gnb>ul>li>div");
 const headerWrap = document.querySelector("div.header_wrap");
@@ -75,3 +76,5 @@ window.addEventListener("scroll" ,e=>{
   }
 })
 
+
+});

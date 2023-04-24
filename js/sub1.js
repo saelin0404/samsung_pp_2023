@@ -1,6 +1,7 @@
 // snb1.js
 
-const step1 = document.querySelectorAll(".step1>ul>li>a");
+window.addEventListener("load",()=>{
+  const step1 = document.querySelectorAll(".step1>ul>li>a");
 console.log(step1);
 
 for(let i=0; i<step1.length; i++){
@@ -16,4 +17,5 @@ for(let i=0; i<step1.length; i++){
   })
 }
 
+})
 
