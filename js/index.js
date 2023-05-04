@@ -64,4 +64,37 @@ window.addEventListener("load",()=>{//버튼
     })
   }
   
+
+  const contents = document.querySelectorAll('#container>div')
+  console.log(contents);
+
+  window.addEventListener("scroll" ,e=>{
+    let scroll = document.querySelector("html").scrollTop;
+
+    for(let i=0; i<contents.length; i++){
+      if(scroll <= 0 ){
+        contents[i].classList.add("off")
+      }
+      else if(scroll >= 500 && scroll < 1200){
+        contents[0].classList.remove("off")
+      }
+      else if(scroll >= 1200 && scroll < 1700){
+        contents[0].classList.remove("off")
+        contents[1].classList.remove("off")
+      }
+      else if(scroll >= 1700 && scroll < 3400){
+        contents[0].classList.remove("off")
+        contents[1].classList.remove("off")
+        contents[2].classList.remove("off")
+      }
+      else if(scroll >= 3400 && scroll < 4400){
+        contents[0].classList.remove("off")
+        contents[1].classList.remove("off")
+        contents[2].classList.remove("off")
+        contents[3].classList.remove("off")
+      }
+    }
   })
+  })
+
+  
